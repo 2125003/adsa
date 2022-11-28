@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #e10a0a;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.btn {
+
+    transition: .4s;
+
+}
+.btn:hover {
+    color: black;
+    transform: scale(1.2);
+    background: #04e704;
+}
+
+.block {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background: rgb(250, 193, 6);
+    border-radius: 8px;
+}
+
+
+/*if (input.value !== "") {*/
+/*    const newList = `<li class="list-group-item d-flex justify-content-between align-items-center">*/
+/*    <span class="d-flex align-items-center">*/
+/*    <input type="checkbox" class="mx-2">*/
+
+/*    ${input.value}*/
+/*    </span>*/
+/*    <button class="del-btn btn btn-danger">delete</button>*/
+/*    </li>`*/
+/*    ul.innerHTML += newList*/
+/*}*/
+/*})*/
+
+
+
+
+
