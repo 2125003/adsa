@@ -7,7 +7,7 @@ const list = document.querySelector('.list')
 btn.addEventListener('click', () => {
     addNewWork()
 })
-input.addEventListener('keydown', (e) => {
+input.addEventListener('', (e) => {
     if (e.key === 'Enter') {
         addNewWork()
     }
