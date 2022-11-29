@@ -18,7 +18,8 @@ function addNewWork() {
         const newList = `<li class="list-group-item d-flex
         justify-content-between align-items-center">
         <span class="d-flex align-items-center ">
- <div class="block my-2">${input.value[0].toUpperCase()} ${input.value[1].toLowerCase()}</div>
+ <div class="block">${input.value[0].toUpperCase()} ${input.value[1].toLowerCase()}
+ </div>
         <input type="checkbox" class="checkbox mx-3">${input.value} ${input1.value}</span>
         <button class="del-btn btn btn-primary">delete</button>
         </li>`
